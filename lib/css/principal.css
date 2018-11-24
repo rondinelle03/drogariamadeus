@@ -1,0 +1,416 @@
+@font-face {
+  font-family: "AvenirLTStd-Black";
+  src: url("./fonts/AvenirLTStd-Black.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/AvenirLTStd-Black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/AvenirLTStd-Black.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/AvenirLTStd-Black.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/AvenirLTStd-Black.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/AvenirLTStd-Black.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/AvenirLTStd-Black.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AvenirLTStd-Book";
+  src: url("./fonts/AvenirLTStd-Book.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/AvenirLTStd-Book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/AvenirLTStd-Book.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/AvenirLTStd-Book.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/AvenirLTStd-Book.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/AvenirLTStd-Book.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/AvenirLTStd-Book.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AvenirLTStd-Light";
+  src: url("./fonts/AvenirLTStd-Light.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/AvenirLTStd-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/AvenirLTStd-Light.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/AvenirLTStd-Light.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/AvenirLTStd-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/AvenirLTStd-Light.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/AvenirLTStd-Light.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AvenirLTStd-Medium";
+  src: url("./fonts/AvenirLTStd-Medium.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/AvenirLTStd-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/AvenirLTStd-Medium.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/AvenirLTStd-Medium.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/AvenirLTStd-Medium.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/AvenirLTStd-Medium.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/AvenirLTStd-Medium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AvenirLTStd-Roman";
+  src: url("./fonts/AvenirLTStd-Roman.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/AvenirLTStd-Roman.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/AvenirLTStd-Roman.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/AvenirLTStd-Roman.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/AvenirLTStd-Roman.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/AvenirLTStd-Roman.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/AvenirLTStd-Roman.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,a{
+  color: #706f6f;
+}
+
+body,  p, ul, ol, dl, input, textarea {
+    font-family: "AvenirLTStd-Light";
+  font-weight:300
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "AvenirLTStd-Medium";
+}
+header nav{
+  background: #ffdb09;
+  height: 120px;
+}
+
+header nav ul{
+  margin-top: 30px;
+  margin-right: -12px;
+}
+
+header nav li a{
+    color: #575756;
+    font-size: 20px;
+    font-weight: bold;
+}
+.brand-logo{
+  margin-top: 15px;
+}
+
+.redx{
+  background: #be1219;
+}
+
+.no-margin{
+  margin-bottom: 0;
+}
+.top-nv{
+  margin:5px 0;
+}
+
+.top-nv li{
+  display: inline;
+  margin-left: 5px;
+}
+
+.texto h5{
+  color: #aa2b24;
+}
+.top-nv li a{
+  color: #fff;
+}
+img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon img {
+    border: 1px solid #DDDDDD;
+    padding: 6px;
+}
+.wp-caption img {
+    border-color: #EDEDED;
+}
+a:focus img[class*="align"], a:hover img[class*="align"], a:active img[class*="align"], a:focus img[class*="wp-image-"], a:hover img[class*="wp-image-"], a:active img[class*="wp-image-"], #content .gallery .gallery-icon a:focus img, #content .gallery .gallery-icon a:hover img, #content .gallery .gallery-icon a:active img {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-color: #BBBBBB;
+}
+.wp-caption a:focus img, .wp-caption a:active img, .wp-caption a:hover img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #DDDDDD;
+}
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.625em;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.625em;
+}
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wp-caption {
+    background-color: #FCFCFD;
+    border: 1px solid #F5F5F5;
+    padding-top: 4px;
+    text-align: center;
+    width: 310px;
+}
+.wp-caption img {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+.wp-caption-text {
+    font-size: 11px;
+    font-style: italic;
+    margin: 0;
+    padding-bottom: 0;
+}
+.titulo{
+   font-family: "AvenirLTStd-Book";
+   position: relative;
+   font-size: 24px;
+}
+.titulo::after{
+  content: "";
+  background: url(../../imgs/ico-titulo.png) no-repeat;
+  width: 33px;
+  height: 33px;
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.slider .slides li .caption img{
+  height: 181px;
+  width: 363px;
+}
+.slider .slides{
+  height: 495px;
+}
+.titulo span{
+  border-bottom: 3px solid #ffcf0d;
+  padding: 11px 0px 5px 40px;
+  margin-bottom: 20px;
+  display: table;
+}
+.slider .slides li .caption{
+  top: 26%;
+}
+.slider .indicators .indicator-item.active{
+  background-color:#be1219;
+}
+.img-foto{
+  position: relative;
+}
+.ico-plu{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.link-not{
+  display: table;
+}
+.titulo span strong{
+  font-family: "AvenirLTStd-Black";
+  color: #aa2b24;
+
+
+}
+.boxcapa{
+  padding: 1px 27px 30px 27px;
+      min-height: 560px;
+}
+.redes-sociais{
+      padding: 50px 0 24px 0;
+}
+
+.box-contatos{
+  padding:1px 0 40px 0 ;
+  color: #fff;
+}
+
+.box-contatos h4{
+  font-size: 17px;
+  margin-bottom: 0;
+  font-family: "AvenirLTStd-Black";
+  letter-spacing: -1px;
+  text-align: center;
+}
+.box-contatos h4 span{
+  color: #ffdc2e;
+}
+.box-contatos p{
+  font-size: 20px;
+  margin: 3px;
+  text-align: center;
+}
+.box-contatos p i{
+  color: #ffdc2e;
+}
+.tabs .tab a{
+  background-color:#be1219;
+  color: #fff;
+  font-size: 24px; 
+  padding: 7px 24px 0 24px;
+   overflow: visible !important;
+    position: relative;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    font-weight: bold;
+    background-color: #fecb13;
+    color: #706f6f;
+}
+.tabs .indicator{
+    background-color: #fecb13;
+    display: none;
+}
+.tabs,.tabs .tab{
+  height: 60px;
+  position: relative;
+
+}
+.ico-amarel {
+    position: absolute;
+    bottom: -35px;
+    left: 42%;
+}
+.tabs{
+  overflow-x: visible !important;
+      overflow-y: initial !important;
+}
+
+.dropdown-content {
+    background-color: #ffdb09;
+        top: 108px;
+}
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 16px;
+    color: #706f6f;
+}
+html, body, #map-canvas,#map-canvas-oeste {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+#test2,#map-canvas,#map-canvas-oeste{
+  height: 500px;
+}
+
+.tabs .tab a::before{
+    content: '';
+    z-index: 99;
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+
+    border-style: solid;
+    border-width: 15px 15px 0 15px;
+    border-color: transparent;
+    -webkit-transition: border-color ease 300ms;
+    -o-transition: border-color ease 300ms;
+    transition: border-color ease 300ms;
+}
+.tabs .tab a::before {
+    border-color: transparent transparent transparent transparent;
+}
+.int-capa{
+  margin-bottom: 30px;
+}
+
+.int-capa img{
+  width: 100%;
+  height: auto;
+}
+
+.int-capa .titulo{
+  font-size: 15px;
+}
+.int-capa .titulo span{
+      padding: 16px 0px 14px 40px;
+      width: 100%;
+}
+.tabs .tab a.active::before {
+    border-color: #fecb13 transparent transparent transparent;
+}
+.no-padding{
+  padding: 0;
+}
+.texto{
+  display: table;
+  width: 100%;
+}
+.texto{
+  text-align: justify;
+}
+i.right{
+  margin-left: 0;
+}
+
+.img-not,.texto img{
+  width: 100%;
+  height: auto;
+}
+.slider{
+  height: 496px !important;
+}
+.bloco-dest{
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+/** =Paginate links Styles
+ ******************************************* **/
+.page-numbers {
+    float: left;
+    margin-top: 10px;    
+}
+.page-numbers li {
+    display: inline-block;
+    margin-left: 3px;    
+}
+.page-numbers a, .page-numbers .dots, .page-numbers .next, .page-numbers .prev {
+    padding: 6px 12px;
+    background: #eee;
+    text-decoration: none; 
+}
+.page-numbers a:hover, .page-numbers .next:hover, .page-numbers .prev:hover {
+    background: #666;
+  color:#fff;
+}
+.page-numbers .current {
+    padding: 6px 12px;
+    background: #666;
+    color: #fff;   
+}
+
+footer{
+  margin-top: 40px;
+}
+
+/* COL-MD */
+@media only screen and   (min-width:992px){
+  .container{
+    width: 1140px;
+  }
+}
+/* COL-SM */
+@media only screen and  (max-width:992px) and (min-width:767px){
+    
+}
+/* COL-XS */
+@media only screen and  (max-width:767px){
+
+  .img-not, .texto img{
+    height: auto;
+    width: 100%;
+  }
+
+}
